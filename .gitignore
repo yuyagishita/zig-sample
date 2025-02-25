@@ -1,2 +1,23 @@
-.zig-cache/
+# Zigのビルド生成物
 zig-out/
+.zig-cache/
+
+# バイナリファイル（実行可能ファイル）
+*.exe
+*.o
+*.obj
+*.so
+*.dll
+*.lib
+*.a
+
+# デフォルトで生成される単一バイナリ（zig build-exeの場合）
+# プロジェクト名に応じてカスタマイズ可能
+# 例: hello というバイナリを無視する場合
+hello
+main
+
+# その他一般的な無視対象
+*.log
+*.tmp
+.DS_Store
